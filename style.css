@@ -1,20 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit&family=Raleway&family=Roboto:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "outfit";
+  font-size: 15px;
+  transform: translateY(15%);
+}
+
 .qr-container {
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
   height: fit-content;
   margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+img {
+  width: 270px;
+  height: 270px;
+  /* align-self: center; */
+  border-radius: 10px;
 }
 
 .text {
+  align-self: center;
   text-align: center;
-  width: 100%;
+  max-width: 230px;
+  margin-top: 10px;
+}
+
+.text p:first-child {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.text p:nth-child(2) {
+  color: hsl(220, 15%, 55%);
 }
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 0.9rem; 
+  text-align: center; 
+  margin-top: 30px;
 }
     
 .attribution a { 

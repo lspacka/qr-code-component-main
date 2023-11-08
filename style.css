@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.qr-container {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

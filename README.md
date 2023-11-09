@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./design/screenshot.png)
+![Design preview for the QR code component coding challenge](design/screenshot.png)
 
 Live Preview: https://lspacka.github.io/qr-code-component-main/
 
@@ -12,5 +12,5 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/lspacka)
-- Twitter - [@yourusername](https://www.twitter.com/lspacka)
+- Frontend Mentor - [@lspacka](https://www.frontendmentor.io/profile/lspacka)
+- Twitter - [@lspacka](https://www.twitter.com/lspacka)

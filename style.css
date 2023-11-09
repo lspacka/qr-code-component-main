@@ -17,9 +17,6 @@ body {
 
 main {
   margin: 0 auto;
-}
-
-.container {
   max-width: 375px;
 }
 

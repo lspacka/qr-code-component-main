@@ -1,58 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit&family=Raleway&family=Roboto:wght@300&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'outfit', sans-serif;
   font-size: 15px;
-  transform: translateY(15%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.qr-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 300px;
-  height: fit-content;
+main {
   margin: 0 auto;
+}
+
+.container {
+  max-width: 375px;
+}
+
+.qr {
+  margin: 0 1em; 
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
-  justify-content: center;
   border-radius: 15px;
+  text-align: center;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
 .text {
-  align-self: center;
-  text-align: center;
-  max-width: 230px;
-  margin-top: 5px;
+  padding: 20px 10px;
 }
 
-.text p:first-child {
+.text h2 {
   color: hsl(218, 44%, 22%);
-  font-weight: 700;
-  font-size: 1.19rem;
+  padding-bottom: 15px;
 }
 
-.text p:nth-child(2) {
+.text p{
   color: hsl(220, 15%, 55%);
-  font-weight: 400;
-}
-
-.attribution { 
-  font-size: 0.8rem; 
-  text-align: center; 
-  margin-top: 30px;
-}
-    
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
 }

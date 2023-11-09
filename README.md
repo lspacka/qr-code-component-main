@@ -12,5 +12,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ## Author
 
-- Frontend Mentor - [@lspacka](https://www.frontendmentor.io/profile/lspacka)
-- Twitter - [@lspacka](https://www.twitter.com/lspacka)
+<!-- - Frontend Mentor - [@lspacka](https://www.frontendmentor.io/profile/lspacka)
+- Twitter - [@lspacka](https://www.twitter.com/lspacka) -->
+
+- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/lspacka" target="_blank">@lspacka</a>
+- Twitter - <a href="https://www.twitter.com/lspacka" target="_blank">@lspacka</a>

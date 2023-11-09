@@ -40,11 +40,15 @@ img {
   padding: 20px 10px;
 }
 
-.text h2 {
+.text h1 {
   color: hsl(218, 44%, 22%);
   padding-bottom: 15px;
+  font-size: 1.5rem;
 }
 
 .text p{
   color: hsl(220, 15%, 55%);
+  padding-left: 10px;
+  padding-right: 10px; 
+  font-size: 0.99rem;
 }

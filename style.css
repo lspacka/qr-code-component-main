@@ -13,10 +13,10 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 main {
-  margin: 0 auto;
   max-width: 375px;
 }
 
@@ -43,7 +43,7 @@ img {
   font-size: 1.5rem;
 }
 
-.text p{
+.text p {
   color: hsl(220, 15%, 55%);
   padding-left: 10px;
   padding-right: 10px; 
